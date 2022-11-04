@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         canadianAmount = Double.parseDouble(editText.getText().toString());
         americanAmount = canadianAmount*0.76;
         Toast.makeText(MainActivity.this,String.format("%.2f",americanAmount) + " $ US ", Toast.LENGTH_LONG).show();
-
+        //HIIIII
     }
 
         @Override
